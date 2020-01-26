@@ -1,2 +1,9 @@
 Proceso sin_titulo
-definir n1, n2 como entero;
+	Definir n1, n2, suma Como Entero;
+	Escribir "Ingrese el primer numero";
+	Leer n1;
+	Escribir "Ingrese el segundo numero";
+	Leer n2;
+	suma = n1 + n2;
+	Escribir "La suma de los 2 numeros ingresados es ", suma;
+FinProceso
